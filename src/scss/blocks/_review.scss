@@ -1,0 +1,88 @@
+.section-3 {
+	margin-top: 100px;
+	position: relative;
+	z-index: 5;
+	overflow: hidden;
+	.gallery-title {
+		h2 {
+			text-align: center;
+			margin-bottom: 50px;
+			span {
+				display: inline-block;
+				position: relative;
+				padding-left: 5px;
+				&:before {
+					content: '';
+					height: 1px;
+					background: url("../img/big-line.png");
+					width: 100vw;
+					position: absolute;
+					top: 50%;
+					right: 100%;
+				}
+				&:after {
+					content: '';
+					height: 1px;
+					background: url("../img/big-line.png");
+					width: 100vw;
+					position: absolute;
+					top: 50%;
+					left: 100%;
+				}
+			}
+		}
+	}
+	.slider {
+		padding: 0;
+		max-height: 345px;
+		overflow-y: scroll;
+		.mCSB_container {
+			display: flex;
+		}
+		.slick-track {
+			padding: 50px 0;
+		}
+		.slick-slide {
+			outline: none!important;
+		}
+		.item {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin: 0 10px;
+			overflow: hidden;
+			padding: 40px 56px;
+			border: 1px solid #00a87f;
+			p {
+				margin-top: 30px;
+				text-align: center;
+			}
+		}
+		.item-block {
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			justify-content: flex-start;
+		}
+		.slick-arrow {
+			position: absolute;
+			bottom: -80px;
+			height: 48px;
+			width: 70px;
+			border: none;
+			outline: none;
+			cursor: pointer;
+			z-index: 10;
+		}
+		.slick-next {
+			left: 323px;
+			margin-right: -35px;
+			background: url("../img/right-arrow.png") no-repeat bottom;
+		}
+		.slick-prev {
+			left: 212px;
+			margin-left: -35px;
+			background: url("../img/left-arrow.png") no-repeat bottom;
+		}
+	}
+}

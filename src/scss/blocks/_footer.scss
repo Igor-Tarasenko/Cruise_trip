@@ -1,0 +1,24 @@
+footer {
+	padding-bottom: 80px;
+	margin-top: 120px;
+	.title {
+		padding: 20px 0 10px 0px;
+		background: #00a87f;
+		h2 {
+			color: #ffffff;
+			text-align: center;
+		}
+	}
+	.email-btn {
+		color: #333333;
+		text-align: center;
+		margin-top: 50px;
+		a {
+			background: url("../img/mail.png") no-repeat center left;
+			background-size: 30px;
+			font-family: $raleway-font;
+			font-size: 24px;
+			padding-left: 40px;
+		}
+	}
+}

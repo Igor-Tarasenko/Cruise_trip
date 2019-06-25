@@ -1,0 +1,110 @@
+.about {
+	padding: 80px 0 0 0;
+	overflow: hidden;
+	h2 {
+		span {
+			display: inline-block;
+			position: relative;
+			padding-left: 5px;
+			&:before {
+				content: '';
+				height: 1px;
+				background: url("../img/big-line.png");
+				width: 100vw;
+				position: absolute;
+				top: 50%;
+				right: 100%;
+			}
+			&:after {
+				content: '';
+				height: 1px;
+				background: url("../img/big-line.png");
+				width: 100vw;
+				position: absolute;
+				top: 50%;
+				left: 100%;
+			}
+		}
+	}
+	.welcome {
+		span {
+			margin-left: 364px;
+		}
+		.about_text {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+	}
+	.who-we-are {
+		margin-top: 100px;
+		h2 {
+			text-align: right;
+		}
+		span {
+			margin-right: 364px;
+		}
+
+	}
+	.mission {
+		overflow: hidden;
+		span {
+			margin-left: 40%;
+		}
+	}
+	.vision {
+		overflow: hidden;
+		h2 {
+			text-align: right;
+		}
+		span {
+			margin-right: 40%;
+		}
+	}
+	.mission, .vision, .how-to-apply, .facilities {
+		margin-top: 100px;
+	}
+	.how-to-apply, .facilities {
+		.about_text {
+			margin-top: 45px;
+		}
+		span {
+			margin-left: 364px;
+		}
+	}
+	.facilities {
+		.about_text {
+			margin-top: 0;
+		}
+	}
+	.about_img {
+		padding: 0;
+		img {
+			width: 100%;
+		}
+	}
+	.about_text {
+		p {
+			font-family: $raleway-font;
+			color: #333333;
+			font-size: 20px;
+			text-align: left;
+			margin-top: 10px;
+			&:first-child {
+				margin-top: 0;
+			}
+		}
+	}
+	.about-text_main-block {
+		margin-top: 60px;
+		.about_text {
+			margin-top: 15px;
+		}
+	}
+	.information {
+		margin-top: 15px;
+	}
+	.short-info {
+		margin-top: 40px;
+	}
+}

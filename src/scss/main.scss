@@ -1,0 +1,88 @@
+@import 'libs';
+@import 'fonts';
+// colors
+$body-background: #ffffff;
+
+// fonts
+$raleway-font: 'Raleway', sans-serif;
+
+html {
+  	box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+body {
+	color: #333333;
+	font-size: 20px;
+	font-weight: 400;
+	background: $body-background;
+	font-family: $raleway-font;
+}
+h1 {
+	font-family: $raleway-font;
+	font-size: 48px;
+	color: #333333;
+	/*margin-bottom: 23px;*/
+	text-align: left;
+	letter-spacing: 8px;
+	font-weight: 700;
+}
+h2 {
+	font-family: $raleway-font;
+	font-size: 52px;
+	color: #333333;
+	text-align: left;
+	letter-spacing: 5px;
+	margin-bottom: 20px;
+	font-weight: 700;
+}
+h3 {
+	font-family: $raleway-font;
+	font-size: 24px;
+	color: #333333;
+	font-weight: 600;
+	margin-bottom: 0;
+	text-align: left;
+	line-height: 30px;
+	min-height: 35px;
+}
+h4 {
+	font-family: $raleway-font;
+	font-size: 24px;
+	text-transform: uppercase;
+	margin: 0;
+	color: $body-background;
+}
+a {
+	color: inherit;
+	&:hover {
+		color: inherit;
+		text-decoration: none;
+	}
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+p {
+	margin-bottom: 0;
+	color: #333333;
+}
+b {
+	font-weight: bold;
+}
+button:focus {
+	outline: none;
+}
+.toTop {
+	position: fixed;
+	bottom: 40px;
+	right: 200px;
+	cursor: pointer;
+	display: none;
+	z-index: 9999;
+}
+@import 'index';
