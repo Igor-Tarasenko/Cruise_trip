@@ -1,10 +1,11 @@
+<!--
 <section class="section-3" id="section-3">
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12 gallery-title">
                 <h2><span>What our clients say</span></h2>
             </div>
-            <div class="col-12 slider mCustomScrollbar">
+            <div class="col-12 slider">
                 <div class="item">
                     <div class="item-block">
                         <img src="./img/quotes.png" alt="">
@@ -38,4 +39,4 @@
             </div>
         </div>
     </div>
-</section>
+</section>-->

@@ -1,4 +1,4 @@
-<header class="col-lg-1 col-7 main-header-block" id="top">
+<header class="col-lg-1 main-header-block" id="top">
     <div class=" logo">
         <a href="/">
             <img src="./img/logo.png" alt="">
@@ -16,9 +16,6 @@
                     </li>
                     <li>
                         <a href="faq.php#section-5" class="topLink">FAQ</a>
-                    </li>
-                    <li>
-                        <a href="review.php#section-3" class="topLink">Reviews</a>
                     </li>
                     <li>
                         <a href="contacts.php#contacts" class="topLink">Contact Us</a>

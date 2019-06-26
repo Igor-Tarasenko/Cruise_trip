@@ -24,27 +24,9 @@ $(document).ready(function() {
         slidesToScroll: 1,
         prevArrow: '<button type="button" class="slick-arrow slick-prev"></button>',
         nextArrow: '<button type="button" class="slick-arrow slick-next"></button>',
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 2000
     });
-    /*$(".slider").slick({
-        infinite: true,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        prevArrow: '<button type="button" class="slick-arrow slick-prev"></button>',
-        nextArrow: '<button type="button" class="slick-arrow slick-next"></button>',
-        autoplay: true,
-        autoplaySpeed: 1000,
-        responsive: [
-            {
-                breakpoint: 1200,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                }
-            }
-        ]
-    });*/
     $(".navbar-toggler").click(function () {
         $(".navbar-collapse").addClass("active");
     });

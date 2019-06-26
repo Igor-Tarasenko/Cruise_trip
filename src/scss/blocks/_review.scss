@@ -34,17 +34,8 @@
 	}
 	.slider {
 		padding: 0;
-		max-height: 345px;
-		overflow-y: scroll;
-		.mCSB_container {
-			display: flex;
-		}
-		.slick-track {
-			padding: 50px 0;
-		}
-		.slick-slide {
-			outline: none!important;
-		}
+		display: flex;
+		margin-top: 25px;
 		.item {
 			display: flex;
 			align-items: center;
@@ -53,6 +44,7 @@
 			overflow: hidden;
 			padding: 40px 56px;
 			border: 1px solid #00a87f;
+			width: 530px;
 			p {
 				margin-top: 30px;
 				text-align: center;
@@ -64,25 +56,24 @@
 			align-items: flex-start;
 			justify-content: flex-start;
 		}
-		.slick-arrow {
-			position: absolute;
-			bottom: -80px;
-			height: 48px;
-			width: 70px;
-			border: none;
-			outline: none;
-			cursor: pointer;
-			z-index: 10;
-		}
-		.slick-next {
-			left: 323px;
-			margin-right: -35px;
-			background: url("../img/right-arrow.png") no-repeat bottom;
-		}
-		.slick-prev {
-			left: 212px;
-			margin-left: -35px;
-			background: url("../img/left-arrow.png") no-repeat bottom;
-		}
+	}
+	.mCSB_container {
+		display: -webkit-box;
+		align-items: center;
+		justify-content: flex-start;
+		padding: 0 0 40px 0;
+	}
+	.mCSB_scrollTools.mCSB_scrollTools_horizontal {
+		height: 11px;
+	}
+	.mCSB_scrollTools .mCSB_draggerRail {
+		background: #00a87f;
+		border-radius: 25px;
+		height: 1px;
+	}
+	.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+		background: #00a87f;
+		border-radius: 25px;
+		height: 5px;
 	}
 }

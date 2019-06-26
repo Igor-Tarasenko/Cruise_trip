@@ -54,4 +54,8 @@ $(document).ready(function() {
             div.removeClass("active");
         }
     });
+    /*$(".slider").mCustomScrollbar({
+        setLeft: "0",
+        axis:"x"
+    });*/
 });
